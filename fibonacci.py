@@ -16,7 +16,6 @@ def fibonacci(n: int) -> int:
     - ValueError: If n is a negative integer.
 
     Algorithm:
-    - If n is 0 or 1, return n.
     - If n is less than THREASHOLD, use the iterative method to calculate the n-th Fibonacci number.
     - Otherwise, use the matrix multiplication method to calculate the n-th Fibonacci number.
 
