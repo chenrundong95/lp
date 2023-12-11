@@ -31,9 +31,6 @@ def fibonacci(n: int) -> int:
     if n < 0:
         raise ValueError("n must be a non-negative integer")
 
-    if n == 0 or n == 1:
-        return n
-
     THREASHOLD = 400  # test on MAC M1
     if n < THREASHOLD:
         a, b = 0, 1
